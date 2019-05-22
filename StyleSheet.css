@@ -1,0 +1,149 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #fff;
+}
+
+h1 {
+    margin: 10px;
+    padding: 0;
+    text-align: center;
+    color: black;
+    font-size: 25px;
+    font-family: 'Century Gothic', sans-serif;
+    font-weight: 500;
+}
+
+p {
+    margin: 10px;
+    padding: 0;
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    font-family: 'Century Gothic', sans-serif;
+    font-weight:300;
+}
+#container {
+    margin: 0;
+    padding: 0;
+    height: 0;
+}
+
+#menu {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Verdana;
+    background-color: #8b0333;
+    height: 77px;
+}
+
+#menu::after {
+        content: " ";
+        display: block;
+        clear: both;
+} 
+
+
+#imya {
+    font-family: Verdana;
+    font-size: 20px;
+    padding: 10px;
+}
+
+#menu li {
+    display: block;
+    width: 19.9%;
+    list-style: none;
+    float: left;
+    padding: 10px 0;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #8b0333;
+    height: 18px;
+}
+
+    #menu li a {
+        color: #fff;
+        text-decoration: none;
+    font-weight: 700;
+}
+
+    #menu li:hover {
+        background-color: #2a0111;
+    }
+    
+    #footer {
+        font-family: Verdana;
+        font-size: 20px;
+        font-weight:400;
+        margin: 10px 20px;
+        text-align: left;
+    }
+
+.maps {
+    width: 101%;
+    height: 539px;
+}
+
+.vopros {
+    font-family: 'Gill Sans', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.otvet {
+    background-color: #eeeeee;
+    font-size: 15px;
+    color: #2a0111;
+    font-family: 'Verdana';
+    padding: 10px 40px;
+    margin: 15px 0;
+    
+}
+
+.proverka {
+    text-align:center;
+}
+
+.formula {
+    font-family: Verdana;
+    font-size: 15px;
+}
+
+.Alice {
+    float: left;
+    width: 45%;
+}
+
+.Bob {
+    float: left;
+    width: 46%;
+}
+
+.container::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.Alice {
+    border-radius: 15px;
+    background-color: lightgrey;
+    margin: 10px 20px 10px 40px;
+}
+
+.Bob {
+    border-radius: 20px;
+    background-color: lightgreen;
+    margin: 10px 20px;
+}
+
+.Eva {
+    padding: 10px;
+    background-color: lightblue;
+    border-radius: 20px;
+    margin: 10px 30%;
+}
